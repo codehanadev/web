@@ -6,9 +6,8 @@ export default function Home() {
     <section className={styles.hero}>
       <div className={styles.content}>
         <div>
-          <h1>Ride with CodeHana</h1>
-          <p>Be immersed in the world of software engineering. Expose, educate and train with us to see the potentials of being a programmer.</p>
-          {/* <p>Whether you are writing your next bestseller or just getting into creative writing: Sweek is your free writing app.</p> */}
+          <h1>Ride with Code<em>Hana</em></h1>
+          <p>Committed to bringing the craft of coding to Hawaii’s people and economy. </p>
         </div>
       </div>
     </section>
