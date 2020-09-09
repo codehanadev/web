@@ -1,28 +1,16 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss';
+import Typography from '@material-ui/core/Typography';
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Code Hana</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to Code Hana!
-        </h1>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://codehana.dev"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
-      </footer>
-    </div>
-  )
+  return <>
+    <section className={styles.hero}>
+      <div className={styles.content}>
+        <div>
+          <h1>Ride with CodeHana</h1>
+          <p>Be immersed in the world of software engineering. Expose, educate and train with us to see the potentials of being a programmer.</p>
+          {/* <p>Whether you are writing your next bestseller or just getting into creative writing: Sweek is your free writing app.</p> */}
+        </div>
+      </div>
+    </section>
+  </>;
 }

@@ -1,0 +1,25 @@
+@import './_mixins.scss';
+@import './_variables.scss';
+
+.appbar {
+  flex-grow: 1;
+  @include rsp-pad;
+  .links {
+    flex-grow: 1;
+    text-transform: uppercase;
+    a {
+      color: inherit;
+      font-size: .75rem;
+      // font-size: 1.2rem;
+      font-weight: 500;
+      margin-left: 30px;
+      &:first-child {
+        margin-left: 0;
+      }
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  
+}
