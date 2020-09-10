@@ -1,4 +1,4 @@
-import styles from '../styles/AppFooter.module.scss';
+import styles from './styles.module.scss';
 
 
 export default function AppFooter(props) {

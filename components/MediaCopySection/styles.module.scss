@@ -1,5 +1,4 @@
 @import '../../styles/_mixins.scss';
-// @import './_variables.scss';
 
 .MediaCopySection {
   @include rsp-pad;
@@ -83,8 +82,5 @@
     @media (min-width: 960px) {
       margin-top: 40px;
     }
-    // @media (min-width: 1280px) {
-    //   margin-top: 50px;
-    // }
   }
 }

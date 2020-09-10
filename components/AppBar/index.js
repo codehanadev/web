@@ -1,4 +1,4 @@
-import styles from '../styles/AppBar.module.scss';
+import styles from './styles.module.scss';
 import AppBarUI from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';

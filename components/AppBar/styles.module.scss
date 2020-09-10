@@ -1,5 +1,5 @@
-@import './_mixins.scss';
-@import './_variables.scss';
+@import '../../styles/_mixins.scss';
+@import '../../styles/_variables.scss';
 
 .appbar {
   @include rsp-pad;
@@ -38,9 +38,9 @@
     }
     .text {
       display: block;
-      width: 96px;
+      width: 72px;
       height: 48px;
-      margin-left: 12px;
+      margin-left: 14px;
       background-image: url('/logotext_96h.png');
       background-position: center;
       background-size: contain;
