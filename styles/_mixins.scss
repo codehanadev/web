@@ -10,3 +10,9 @@
     padding: 0 115px;
   }
 }
+@mixin resize-font($size) {
+  font-size: $size * .625;
+}
+@mixin resize-lh($size) {
+  line-height: $size * .625;
+}

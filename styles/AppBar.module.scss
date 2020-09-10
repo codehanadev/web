@@ -2,9 +2,12 @@
 @import './_variables.scss';
 
 .appbar {
-  flex-grow: 1;
   @include rsp-pad;
+  flex-grow: 1;
+  box-shadow: -1px 7px 12px 0 rgba(0, 0, 0, 0.04);
   .links {
+    display: flex;
+    align-items: center;
     flex-grow: 1;
     text-transform: uppercase;
     a {
@@ -21,5 +24,27 @@
       }
     }
   }
-  
+  .logo {
+    display: flex;
+    align-items: center;
+    .icon {
+      display: block;
+      width: 42px;
+      height: 48px;
+      background-image: url('/logowhale_96h.png');
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    .text {
+      display: block;
+      width: 96px;
+      height: 48px;
+      margin-left: 12px;
+      background-image: url('/logotext_96h.png');
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
 }
