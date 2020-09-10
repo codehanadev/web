@@ -31,7 +31,7 @@ export default function Home() {
       description="Web Development Foundations is an introduction to the world of software development. It is an intensive 4-week curriculum for people who want to learn how to build a website from the ground up. No coding experience required. The only requirement is commitment."
       media={<img src="/mern.png" style={{ width: '75%' }}/>}
       style={{ background: '#f5f5f5' }}
-      title="Program Details"
+      title="Course Info"
     />
   </>;
 }
