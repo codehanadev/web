@@ -11,9 +11,8 @@
     flex-grow: 1;
     text-transform: uppercase;
     a {
+      @include resize-font(1.2rem);
       color: inherit;
-      font-size: .75rem;
-      // font-size: 1.2rem;
       font-weight: 500;
       margin-left: 30px;
       &:first-child {
@@ -29,22 +28,12 @@
     align-items: center;
     .icon {
       display: block;
-      width: 42px;
-      height: 48px;
-      background-image: url('/logowhale_96h.png');
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-    .text {
-      display: block;
-      width: 72px;
-      height: 48px;
+      width: 46px;
       margin-left: 14px;
-      background-image: url('/logotext_96h.png');
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
+    }
+    .name {
+      width: 78px;
+      margin-left: 14px;
     }
   }
 }

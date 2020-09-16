@@ -3,6 +3,7 @@ import AppBarUI from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
 import Toolbar from '@material-ui/core/Toolbar';
+import { LogoIcon, LogoName } from '../Logo';
 
 
 export default function AppBar(props) {
@@ -11,8 +12,8 @@ export default function AppBar(props) {
       <Toolbar disableGutters={true} variant="dense">
         <div className={styles.links}>
           <Link className={styles.logo} href="/">
-            <span className={styles.icon} />
-            <span className={styles.text} />
+            <LogoIcon className={styles.icon} />
+            <LogoName className={styles.name} />
           </Link>
           {props.links.map((link, i) => <Link key={link.href} href={link.href}>{link.label}</Link>)}
         </div>

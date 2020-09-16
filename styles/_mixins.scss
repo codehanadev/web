@@ -16,3 +16,8 @@
 @mixin resize-lh($size) {
   line-height: $size * .625;
 }
+@mixin logo-font($weight) {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: $weight;
+  letter-spacing: -.05rem;
+}
