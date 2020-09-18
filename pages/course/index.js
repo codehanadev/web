@@ -1,3 +1,4 @@
+import cx from 'classnames';
 import styles from './index.module.scss';
 import Typography from '@material-ui/core/Typography';
 import MediaCopySection from '../../components/MediaCopySection';
@@ -69,14 +70,37 @@ const Session = props => {
     </div>;
 };
 
+const program = [
+    '4 - week program, 9 hours of weekly in -person instruction, 6 hours of weekly take - home work(60 hours total)',
+    'Class size: maximum of 20 students.All state covid - 19 guidelines will be followed',
+    'Requirements: own laptop(model within the last 4 years), reliable internet',
+    'Tuition: $500(subject to class size)',
+    'Location: TBD',
+    'Time: TBD',
+];
+
+
 
 export default function Course() {
     return <>
-        <div className={styles.header}>
-            <h2>{'Course Prep:'}</h2>
-            <h3>{'FullStack Development\nFoundations'}</h3>
+        {/* <div className={styles.banner}>
+            <img src="/mern.png" />
+        </div> */}
+        <h1 className={styles.header}>{'FullStack Development\nFoundations'}</h1>
+        <div className={styles.Description}>
+            <div className={styles.description}>
+                <section>
+                    <p>Web Development Foundations is an introduction to the world of software development.It is an intensive 4 - week curriculum for people who want to learn how to build a website from the ground up.No coding experience required.The only requirement is commitment.</p>
+                    <p>The three pillars of front-end web development are HTML, CSS, and JavaScript. Each subject will be covered with a direct and applicable approach that can be taken into the real world. While the course work may appear intimidating, be assured support will be provided every step of the way to ensure success.</p>
+                    <p>These fundamental skills are the building blocks to launch a career in software development. The tech industry is growing at an incredible pace, offering unlimited opportunities to build a wealthy and sustainable career.</p>
+                </section>
+                <section>
+                    <h3>Program Details</h3>
+                    <ul className={styles.program}>{program.map((detail, i) => <li key={i}>{detail}</li>)}</ul>
+                </section>
+            </div>
         </div>
-        <div className={styles.Course}>
+        <div className={styles.Progress}>
             <div className={styles.left}>
                 <Session {...sessions[1]} />
                 <Session {...sessions[3]} style={{ marginTop: '18px' }} />
@@ -88,11 +112,17 @@ export default function Course() {
             <div className={styles.track}/>
             <div className={styles.right}>
                 <Session {...sessions[0]} />
+                <Session {...sessions[1]} />
                 <Session {...sessions[2]} />
+                <Session {...sessions[3]} />
                 <Session {...sessions[4]} />
+                <Session {...sessions[5]} />
                 <Session {...sessions[6]} />
+                <Session {...sessions[7]} />
                 <Session {...sessions[8]} />
+                <Session {...sessions[9]} />
                 <Session {...sessions[10]} />
+                <Session {...sessions[11]} />
             </div>
         </div>
     </>;

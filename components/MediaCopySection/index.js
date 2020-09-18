@@ -21,8 +21,8 @@ export default function MediaCopySection(props) {
   return <section className={styles.MediaCopySection} style={style}>
     <div className={cx(styles.container, alignStyles)}>
       <div className={styles.content}>
-        <h2>{title}</h2>
-        <p>{description}</p>
+        {title && <h2>{title}</h2>}
+        {description && <p>{description}</p>}
         {button && <div className={styles.button}>
           <Button
             color="primary"

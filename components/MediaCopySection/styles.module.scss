@@ -55,6 +55,7 @@
     }
   }
   p {
+    white-space: pre-wrap;
     color: grey;
     @include resize-font(1.4rem);
     @include resize-lh(1.8rem);
