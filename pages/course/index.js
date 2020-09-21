@@ -71,10 +71,10 @@ const Session = props => {
 };
 
 const program = [
-    '4 - week program, 9 hours of weekly in -person instruction, 6 hours of weekly take - home work(60 hours total)',
-    'Class size: maximum of 20 students.All state covid - 19 guidelines will be followed',
-    'Requirements: own laptop(model within the last 4 years), reliable internet',
-    'Tuition: $500(subject to class size)',
+    '4 - week program, 9 hours of weekly in-person instruction, 6 hours of weekly take-home work (60 hours total)',
+    'Class size: maximum of 20 students.All state covid-19 guidelines will be followed',
+    'Requirements: own laptop (model within the last 4 years), reliable internet',
+    'Tuition: $500 (subject to class size)',
     'Location: TBD',
     'Time: TBD',
 ];
