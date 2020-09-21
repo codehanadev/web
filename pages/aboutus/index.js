@@ -3,15 +3,17 @@ import styles from './index.module.scss';
 
 export default function AboutUs() {
     return <>
-        <h1 className={styles.header}>Who we are</h1>
-        <div className={styles.faces}>
-            <div className={styles.face}>
-                <img src="/aboutus/about_ed.jpg"/>
-                <span>Ed</span>
-            </div>
-            <div className={styles.face}>
-                <img src="/aboutus/about_eric.jpg"/>
-                <span>Eric</span>
+        <div className={styles.background}>
+            <h1 className={styles.header}>Who we are</h1>
+            <div className={styles.faces}>
+                <div className={styles.face}>
+                    <img src="/aboutus/about_ed.jpg" />
+                    <span>Ed</span>
+                </div>
+                <div className={styles.face}>
+                    <img src="/aboutus/about_eric.jpg" />
+                    <span>Eric</span>
+                </div>
             </div>
         </div>
         <div className={styles.Details}>
