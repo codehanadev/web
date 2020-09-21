@@ -1,4 +1,5 @@
 import styles from './index.module.scss';
+import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import MediaCopySection from '../../components/MediaCopySection';
 
@@ -7,7 +8,7 @@ export default function Home() {
     <section className={styles.hero}>
       <div className={styles.content}>
         <div>
-          <h1>Ride with Code<em>Hana</em></h1>
+          <h2 className={styles.title}>Ride with Code<em>Hana</em></h2>
           <p>Committed to bringing the craft of coding to Hawaii’s people and economy. </p>
         </div>
       </div>
@@ -33,5 +34,22 @@ export default function Home() {
       style={{ background: '#f5f5f5' }}
       title="Course Info"
     />
+    <section className={styles.aboutus}>
+      <div className={styles.content}>
+        <div>
+          <h2>About Us</h2>
+          <p>Experienced coders and software engineers, Ed and Eric have more than 30 years of combined experience in the tech sector and have worked for successful companies.</p>
+          <p>
+            <Button
+            className={styles.button}
+            color="primary"
+            disableElevation={true}
+            href="/aboutus"
+            size="large"
+            variant="outlined">Get to know us more</Button>
+          </p>
+        </div>
+      </div>
+    </section>
   </>;
 }

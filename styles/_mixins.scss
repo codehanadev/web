@@ -21,3 +21,6 @@
   font-weight: $weight;
   letter-spacing: -.05rem;
 }
+@mixin cursive-font() {
+  font-family: 'Permanent Marker', cursive;
+}
