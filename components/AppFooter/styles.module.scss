@@ -1,8 +1,9 @@
 @import '../../styles/_mixins.scss';
+@import '../../styles/_variables.scss';
 
 .footer {
-  // height: stretch;
-  background-color: #666666;
+  // background-color: #666666;
+  background-color: $logo_secondary_bg;
   .content {
     @include rsp-pad;
     display: flex;
