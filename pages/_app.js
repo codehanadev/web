@@ -19,7 +19,9 @@ export default function App({ Component, pageProps }) {
     <ThemeProvider>
       <div style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}>
         <AppBar links={[
-          // { label: 'About Us', href: '/about' },
+          { label: 'About Us', href: '/aboutus' },
+          { label: 'The Vision', href: '/vision' },
+          { label: 'Course Info', href: '/course' },
         ]} />
         <Component {...pageProps} />
         <AppFooter />
