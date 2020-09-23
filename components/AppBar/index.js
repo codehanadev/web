@@ -1,8 +1,7 @@
 import cx from 'classnames';
-import { useEffect, useRef, useState } from 'react';
 import styles from './styles.module.scss';
+import { useEffect, useRef, useState } from 'react';
 import AppBarUI from '@material-ui/core/AppBar';
-import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
@@ -21,6 +20,7 @@ const useStyles = makeStyles({
   },
 });
 const iOS = process.browser && /iPad|iPhone|iPod/.test(navigator.userAgent);
+
 
 const SideNav = props => {
   const classes = useStyles();
@@ -41,8 +41,11 @@ const SideNav = props => {
         onClick={() => toggleDrawer(false)}
         onKeyDown={() => toggleDrawer(false)}>
         <List>
+          <ListItem button component={Link} color="inherit" href="/">
+            <ListItemText primary="Home" />
+          </ListItem>
           {props.links.map((link, i) => (
-            <ListItem button key={i}>
+            <ListItem button key={i} component={Link} color="inherit" href={link.href}>
               <ListItemText primary={link.label} />
             </ListItem>
           ))}
