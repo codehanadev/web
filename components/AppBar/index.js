@@ -15,9 +15,9 @@ export default function AppBar(props) {
             <LogoIcon className={styles.icon} />
             <LogoName className={styles.name} />
           </Link>
-          {props.links.map((link, i) => <Link key={link.href} href={link.href}>{link.label}</Link>)}
+          {/* {props.links.map((link, i) => <Link key={link.href} href={link.href}>{link.label}</Link>)} */}
         </div>
-        <Button href="mailto:contact@codehana.dev" target="_blank" color="secondary" size="small" variant="outlined">Ride On!</Button>
+        {/* <Button href="mailto:contact@codehana.dev" target="_blank" color="secondary" size="small" variant="outlined">Ride On!</Button> */}
       </Toolbar>
     </div>
   </AppBarUI>;
