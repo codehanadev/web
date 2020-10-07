@@ -7,11 +7,11 @@ export default function AboutUs() {
             <h1 className={styles.header}>Who we are</h1>
             <div className={styles.faces}>
                 <div className={styles.face}>
-                    <img src="/aboutus/about_ed.jpg" />
+                    <img src="/aboutus/ACpic.jpg" />
                     <span>Ed</span>
                 </div>
                 <div className={styles.face}>
-                    <img src="/aboutus/about_eric.jpg" />
+                    <img src="/aboutus/NHpic.jpg" />
                     <span>Eric</span>
                 </div>
             </div>
