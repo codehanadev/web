@@ -12,6 +12,7 @@ export default function Comments() {
                 <p>"This course has helped me get a better understanding of web development!" - Billy Bob</p>
                 <p>"I discovered that, even though I have no experience programming, I CAN do software engineering!" - Sally Smith</p>
                 <p>"I discovered my inner geek and am on my road to fame." - Mel</p>
+                <p>"Coding is the Life for me." - Melo</p>
             </div>
         </div>
     </>;
