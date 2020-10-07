@@ -1,0 +1,130 @@
+@import '../../styles/_mixins.scss';
+@import '../../styles/_variables.scss';
+
+
+.background {
+  background-image: url('/aboutus/mountains.png');
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  height: 220px;
+}
+.header {
+  @include rsp-pad;
+  @include logo-font(600);
+  @include resize-font(3.7rem);
+  color: $palette_orange;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: pre-wrap;
+  margin: 0;
+  padding: 36px 0 24px;
+  @media (min-width: 600px) {
+    padding: 36px 0 24px;
+    @include resize-font(4.8rem);
+    @include resize-lh(5.2rem);
+  }
+}
+
+.faces {
+  text-align: center;
+  line-height: 0;
+  position: relative;
+  height: calc(124px/2);
+  @media (min-width: 420px) {
+    height: calc(176px/2);
+  }
+  @media (min-width: 600px) {  
+    height: calc(232px/2);
+  }
+  @media (min-width: 960px) {  
+    height: calc(256px/2);
+  }
+  .face {
+    display: inline-block;
+    max-width: 256px;
+    width: 124px;
+    max-height: 256px;
+    border: 6px solid rgba(255, 207, 11, .3);
+    border-radius: 100%;
+    position: relative;
+    &:first-child { margin-right: 12px; }
+    &:last-child { margin-left: 12px; }
+    @media (min-width: 420px) {
+      width: 176px;
+      &:first-child { margin-right: 20px; }
+      &:last-child { margin-left: 20px; }
+    }
+    @media (min-width: 600px) {  
+      width: 232px;
+      &:first-child { margin-right: 30px; }
+      &:last-child { margin-left: 30px; }
+    }
+    @media (min-width: 960px) {  
+      width: 256px;
+      &:first-child { margin-right: 40px; }
+      &:last-child { margin-left: 40px; }
+    }
+    img {
+      display: block;
+      width: 100%;
+      border-radius: 100%;
+      border: 8px solid $palette_yellow;
+    }
+    span {
+      @include cursive-font();
+      color: #ffffff;
+      text-align: center;
+      display: block;
+      width: 100%;
+      position: absolute;
+      font-size: 1.2rem;
+      bottom: -24px;
+      @media (min-width: 960px) {
+        font-size: 2rem;
+        bottom: -36px;
+      }
+    }
+  }
+}
+
+.Details {
+  background-image: linear-gradient(0deg, #fff 10%, $palette_blue 120%);
+  padding: 48px 0;
+  padding-top: 24px;
+  
+  @media (min-width: 600px) {
+    padding-top: 48px;
+  }
+}
+.details {
+  @include rsp-pad;
+  margin: 0 auto;
+  @media (min-width: 600px) {
+    width: 600px;
+    padding: 0 20px;
+  }
+
+  h2 {
+    @include cursive-font();
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 64px;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.375rem;
+    margin: 36px 0;
+    // color: #4e4e4e;
+    color: #2e2e2e;
+    @media (min-width: 600px) {
+      font-size: 1.125rem;
+      line-height: 1.5rem;
+    }
+    @media (min-width: 960px) {
+      @include resize-font(1.8rem);
+      @include resize-lh(2.4rem);
+    }
+  }
+}

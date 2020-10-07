@@ -22,6 +22,7 @@ export default function App({ Component, pageProps }) {
           { label: 'About Us', href: '/aboutus' },
           { label: 'The Vision', href: '/vision' },
           { label: 'Course Info', href: '/course' },
+          { label: 'Testimonials', href: '/comments' },
         ]} />
         <Component {...pageProps} />
         <AppFooter />
