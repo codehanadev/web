@@ -15,6 +15,7 @@ export default function Comments() {
                 <p>"Iʻm not the sharpest on computers, but Ed and Eric have made learning how to code a simple step by step process." - Brent O</p>
                 <p>"I'm excited to learn more about software engineering!" - Shiloh McCormick</p>
                 <p>"Codehana is an incredible way to learn how to use code!" - Nathan Grosse</p>
+                <p>"Iʻm excited to learn the craft of coding!" - Brent O</p>
             </div>
         </div>
     </>;
