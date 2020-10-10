@@ -18,6 +18,7 @@ export default function Comments() {
                 <p>"More comments headed your way!" - Shiloh McCormick</p>
                 <p>"Getting better at creating and merging my branches with each comment!" - Shiloh McCormick</p>
                 <p>"Keep practicing to get better!" - Shiloh McCormick</p>
+                <p>"One Last time!" - Shiloh McCormick</p>
             </div>
         </div>
     </>;
