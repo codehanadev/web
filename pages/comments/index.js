@@ -16,6 +16,10 @@ export default function Comments() {
                 <p>"I'm excited to learn more about software engineering!" - Shiloh McCormick</p>
                 <p>"Codehana is an incredible way to learn how to use code!" - Nathan Grosse</p>
                 <p>"Ed and Eric do an amazing job explaining how to use the tools necessary to learn to code! I highly recoomend!" - Nathan G.</p>
+                <p>"More comments headed your way!" - Shiloh McCormick</p>
+                <p>"Getting better at creating and merging my branches with each comment!" - Shiloh McCormick</p>
+                <p>"Keep practicing to get better!" - Shiloh McCormick</p>
+                <p>"One Last time!" - Shiloh McCormick</p>
             </div>
         </div>
     </>;
