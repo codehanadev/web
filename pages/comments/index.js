@@ -1,3 +1,4 @@
+
 import styles from './index.module.scss';
 
 
@@ -12,6 +13,7 @@ export default function Comments() {
                 <p>"This course has helped me get a better understanding of web development!" - Billy Bob</p>
                 <p>"I discovered that, even though I have no experience programming, I CAN do software engineering!" - Sally Smith</p>
                 <p>"I discovered my inner geek and am on my road to fame." - Mel</p>
+                <p>"Coding is the Life for me." - Melo</p>
                 <p>"Iʻm not the sharpest on computers, but Ed and Eric have made learning how to code a simple step by step process." - Brent O</p>
                 <p>"I'm excited to learn more about software engineering!" - Shiloh McCormick</p>
                 <p>"Codehana is an incredible way to learn how to use code!" - Nathan Grosse</p>
