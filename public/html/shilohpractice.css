@@ -65,10 +65,38 @@ nav li a {
 .section {
 	margin: 0px auto;
 	padding: 0px;
+	width: auto;
+	height: 1000px;
 }
 
 .sect1 {
-	
+	margin: 0px auto;
+	padding: 0px;
 	background-image: url("https://images.squarespace-cdn.com/content/v1/5ce752b3c2419d0001a9701c/1558720668659-N7HXMY3Z2BFQ6RL62NVJ/ke17ZwdGBToddI8pDm48kOggE0Ch6pMGalwtLMqzsSB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ufo5RWkg_J4of0jUNHaDHx6pZKBvpVYzidBWCapg0tuoMuEaB2HPGSYDV-11UTcW2g/camp_075-copy.jpg?format=2500w");
 	background-color: #000;
+	z-index: 1;
+	text-align: center;
+}
+
+.sect1 ul {
+	z-index: 2;
+	display: inline-block;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.sect1 ul li {
+	
+	margin: 0px;
+	padding: 0px;
+}
+
+.sect1 ul li a {
+	color: #fff;
+	text-transform: normal;
+	margin: 0px;
+	padding: 0px;
+	
 }
